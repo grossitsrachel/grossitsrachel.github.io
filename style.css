@@ -1,0 +1,28 @@
+.drop-shadow {
+  box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.5); }
+
+.jumbotron {
+  background-color: #eedded; }
+  .jumbotron .page-header {
+    border-bottom: none; }
+
+.hero h1 {
+  font-size: 63px;
+  font-weight: 500;
+  padding-top: -500px; }
+.hero ul {
+  padding-left: 35px; }
+  .hero ul li {
+    font-size: 20px;
+    list-style-type: none; }
+    .hero ul li a {
+      color: black; }
+    .hero ul li a:hover {
+      color: red; }
+.hero button {
+  margin-left: 35px; }
+
+.rd-col h4 {
+  text-align: center; }
+.rd-col p {
+  text-align: center; }

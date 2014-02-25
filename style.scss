@@ -1,0 +1,52 @@
+$lavender: #EEDDED;
+
+@mixin drop-shadow() {
+	box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.drop-shadow {
+	@include drop-shadow();
+}
+
+.jumbotron {
+	background-color: $lavender;
+	.page-header {
+		border-bottom: none;
+	}
+}
+
+.hero {	
+	h1 {
+		font-size: 63px;
+		font-weight: 500;
+		padding-top: -500px;
+	}
+
+	ul {
+		padding-left: 35px;
+		li {
+			font-size: 20px;
+			list-style-type: none;
+			a {
+				color: black;
+			}
+			a:hover {
+				color: red;
+			}
+		}
+	}
+	
+	button {
+		margin-left: 35px;
+	}
+}
+
+.rd-col {
+	h4 {
+		text-align: center;
+	}
+	
+	p {
+		text-align: center;
+	}
+}
